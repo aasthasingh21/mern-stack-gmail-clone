@@ -2,12 +2,12 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server/index.js",
   "type": "module",
   "scripts": {
     "build": "",
     "test": "npm run test",
-    "start": "node index.js"
+    "start": "node server/index.js"
   },
   "keywords": [],
   "author": "",

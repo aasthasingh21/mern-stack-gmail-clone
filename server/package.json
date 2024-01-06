@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build": "",
+    "build": "npm run build",
     "test": "npm run test",
     "start": "node index.js"
   },

@@ -1,0 +1,9 @@
+
+# dependencies
+/node_modules
+
+# Secret
+.env 
+
+# production 
+/package-lock.json

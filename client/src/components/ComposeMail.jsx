@@ -72,8 +72,8 @@ const ComposeMail = ({openDialog, setOpenDialog}) => { // object destructuring m
 
     const config = {
         Host : "smtp.elasticemail.com",
-        Username : "roshnisingh2111@yopmail.com", // as the code is visible can people can access the information so we make use of .env file
-        Password : "958F28E00F3D69C8901544A22D88D12E0F80",
+        Username : "${process.env.REACT_APP_USERNAME}", // as the code is visible can people can access the information so we make use of .env file
+        Password : "${process.env.REACT_APP_PASSWORD}",
         Port: '2525',
     };
 
